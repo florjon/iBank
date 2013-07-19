@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25E29E1A1729745600CD4BAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E29E191729745600CD4BAF /* UIKit.framework */; };
-		25E29E1C1729745600CD4BAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E29E1B1729745600CD4BAF /* Foundation.framework */; };
-		25E29E1E1729745600CD4BAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E29E1D1729745600CD4BAF /* CoreGraphics.framework */; };
-		25E29E241729745600CD4BAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25E29E221729745600CD4BAF /* InfoPlist.strings */; };
-		25E29E261729745600CD4BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E29E251729745600CD4BAF /* main.m */; };
-		25E29E2A1729745600CD4BAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E29E291729745600CD4BAF /* AppDelegate.m */; };
-		25E29E2C1729745600CD4BAF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E29E2B1729745600CD4BAF /* Default.png */; };
-		25E29E2E1729745600CD4BAF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E29E2D1729745600CD4BAF /* Default@2x.png */; };
-		25E29E301729745600CD4BAF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E29E2F1729745600CD4BAF /* Default-568h@2x.png */; };
-		25E29E331729745600CD4BAF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E29E311729745600CD4BAF /* MainStoryboard.storyboard */; };
-		25E29E361729745600CD4BAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E29E351729745600CD4BAF /* ViewController.m */; };
+		25DEA72B174E300500B6AAD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E29E191729745600CD4BAF /* UIKit.framework */; };
+		25DEA72C174E300500B6AAD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E29E1B1729745600CD4BAF /* Foundation.framework */; };
+		25DEA72D174E300500B6AAD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E29E1D1729745600CD4BAF /* CoreGraphics.framework */; };
+		25DEA733174E300500B6AAD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25DEA731174E300500B6AAD4 /* InfoPlist.strings */; };
+		25DEA735174E300500B6AAD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DEA734174E300500B6AAD4 /* main.m */; };
+		25DEA739174E300500B6AAD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DEA738174E300500B6AAD4 /* AppDelegate.m */; };
+		25DEA73C174E300500B6AAD4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DEA73A174E300500B6AAD4 /* MainStoryboard.storyboard */; };
+		25DEA73F174E300500B6AAD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DEA73E174E300500B6AAD4 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		25E29E151729745600CD4BAF /* iBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DD5240174A3D2200AE3DB0 /* raiffeisenlogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raiffeisenlogo@2x.png"; sourceTree = "<group>"; };
+		25DD5241174A3D2200AE3DB0 /* raiffeisenlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raiffeisenlogo.png; sourceTree = "<group>"; };
+		25DEA711174E2C0100B6AAD4 /* iBank-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBank-Info.plist"; sourceTree = "<group>"; };
+		25DEA713174E2C0100B6AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25DEA715174E2C0100B6AAD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25DEA717174E2C0100B6AAD4 /* iBank-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBank-Prefix.pch"; sourceTree = "<group>"; };
+		25DEA718174E2C0100B6AAD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25DEA719174E2C0100B6AAD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25DEA71C174E2C0100B6AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		25DEA71E174E2C0100B6AAD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25DEA71F174E2C0100B6AAD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25DEA724174E2EE300B6AAD4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		25DEA729174E300500B6AAD4 /* iBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DEA730174E300500B6AAD4 /* iBank-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBank-Info.plist"; sourceTree = "<group>"; };
+		25DEA732174E300500B6AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25DEA734174E300500B6AAD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25DEA736174E300500B6AAD4 /* iBank-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBank-Prefix.pch"; sourceTree = "<group>"; };
+		25DEA737174E300500B6AAD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25DEA738174E300500B6AAD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25DEA73B174E300500B6AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		25DEA73D174E300500B6AAD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25DEA73E174E300500B6AAD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		25E29E191729745600CD4BAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		25E29E1B1729745600CD4BAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		25E29E1D1729745600CD4BAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -37,26 +55,119 @@
 		25E29E321729745600CD4BAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		25E29E341729745600CD4BAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		25E29E351729745600CD4BAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25E29E3C1729752800CD4BAF /* Payment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payment.h; sourceTree = "<group>"; };
+		25E29E3D1729752800CD4BAF /* Payment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Payment.m; sourceTree = "<group>"; };
+		25E29E3F1729753700CD4BAF /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		25E29E401729753700CD4BAF /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		25E29E421729755A00CD4BAF /* ListPaymentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListPaymentsViewController.h; sourceTree = "<group>"; };
+		25E29E431729755A00CD4BAF /* ListPaymentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListPaymentsViewController.m; sourceTree = "<group>"; };
+		25E29E4B1729768F00CD4BAF /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		25E29E4C1729768F00CD4BAF /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		25E29E52172A722000CD4BAF /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		25E29E53172A722000CD4BAF /* Deposit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deposit.h; sourceTree = "<group>"; };
+		25E29E54172A722000CD4BAF /* Deposit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deposit.m; sourceTree = "<group>"; };
+		25E29E5B172A74B300CD4BAF /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		25E29E5C172A74B300CD4BAF /* main@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main@2x.png"; sourceTree = "<group>"; };
+		25E29E64172A74C200CD4BAF /* confirm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confirm.png; sourceTree = "<group>"; };
+		25E29E66172AB34200CD4BAF /* ListAccountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListAccountsViewController.h; sourceTree = "<group>"; };
+		25E29E67172AB34200CD4BAF /* ListAccountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListAccountsViewController.m; sourceTree = "<group>"; };
+		25E29E73172E6B2D00CD4BAF /* DetailPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPaymentViewController.h; sourceTree = "<group>"; };
+		25E29E74172E6B2D00CD4BAF /* DetailPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPaymentViewController.m; sourceTree = "<group>"; };
+		25E29E7F172EA5F100CD4BAF /* ListCardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCardsViewController.h; sourceTree = "<group>"; };
+		25E29E80172EA5F100CD4BAF /* ListCardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCardsViewController.m; sourceTree = "<group>"; };
+		25E29E81172EA5F100CD4BAF /* ListDepositsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDepositsViewController.h; sourceTree = "<group>"; };
+		25E29E82172EA5F100CD4BAF /* ListDepositsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDepositsViewController.m; sourceTree = "<group>"; };
+		25E29E85172EA5FD00CD4BAF /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		25E29E8A172FFB3C00CD4BAF /* yellow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow2.png; sourceTree = "<group>"; };
+		25E29E911733FCE000CD4BAF /* CreatePaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatePaymentViewController.h; sourceTree = "<group>"; };
+		25E29E921733FCE000CD4BAF /* CreatePaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatePaymentViewController.m; sourceTree = "<group>"; };
+		25E29E98173902E400CD4BAF /* CardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		25E29E99173902E400CD4BAF /* CardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		25E29E9A173902E500CD4BAF /* CardDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDetailsController.h; sourceTree = "<group>"; };
+		25E29E9B173902E500CD4BAF /* CardDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDetailsController.m; sourceTree = "<group>"; };
+		25E29EA217390DA100CD4BAF /* DetailAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailAccountViewController.h; sourceTree = "<group>"; };
+		25E29EA317390DA100CD4BAF /* DetailAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailAccountViewController.m; sourceTree = "<group>"; };
+		25E29EA517390DB700CD4BAF /* DetailDepositViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailDepositViewController.h; sourceTree = "<group>"; };
+		25E29EA617390DB700CD4BAF /* DetailDepositViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailDepositViewController.m; sourceTree = "<group>"; };
+		25E78EDE173936C2000E6111 /* listadepositave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listadepositave.png; sourceTree = "<group>"; };
+		25E78EDF173936C2000E6111 /* listakartave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listakartave.png; sourceTree = "<group>"; };
+		25E78EE0173936C2000E6111 /* listallogarive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listallogarive.png; sourceTree = "<group>"; };
+		25E78EE1173936C2000E6111 /* listapagesave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listapagesave.png; sourceTree = "<group>"; };
+		25E78EE6173936CC000E6111 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		25E78EF2173A8559000E6111 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		25E78EF4173BB038000E6111 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		25E78EF5173BB038000E6111 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		25E29E121729745500CD4BAF /* Frameworks */ = {
+		25DEA726174E300500B6AAD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25E29E1A1729745600CD4BAF /* UIKit.framework in Frameworks */,
-				25E29E1C1729745600CD4BAF /* Foundation.framework in Frameworks */,
-				25E29E1E1729745600CD4BAF /* CoreGraphics.framework in Frameworks */,
+				25DEA72B174E300500B6AAD4 /* UIKit.framework in Frameworks */,
+				25DEA72C174E300500B6AAD4 /* Foundation.framework in Frameworks */,
+				25DEA72D174E300500B6AAD4 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25DEA70F174E2C0100B6AAD4 /* iBank */ = {
+			isa = PBXGroup;
+			children = (
+				25DEA718174E2C0100B6AAD4 /* AppDelegate.h */,
+				25DEA719174E2C0100B6AAD4 /* AppDelegate.m */,
+				25DEA71B174E2C0100B6AAD4 /* MainStoryboard.storyboard */,
+				25DEA71E174E2C0100B6AAD4 /* ViewController.h */,
+				25DEA71F174E2C0100B6AAD4 /* ViewController.m */,
+				25DEA710174E2C0100B6AAD4 /* Supporting Files */,
+			);
+			path = iBank;
+			sourceTree = "<group>";
+		};
+		25DEA710174E2C0100B6AAD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25DEA711174E2C0100B6AAD4 /* iBank-Info.plist */,
+				25DEA712174E2C0100B6AAD4 /* InfoPlist.strings */,
+				25DEA715174E2C0100B6AAD4 /* main.m */,
+				25DEA717174E2C0100B6AAD4 /* iBank-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25DEA72E174E300500B6AAD4 /* iBank */ = {
+			isa = PBXGroup;
+			children = (
+				25DEA737174E300500B6AAD4 /* AppDelegate.h */,
+				25DEA738174E300500B6AAD4 /* AppDelegate.m */,
+				25DEA73A174E300500B6AAD4 /* MainStoryboard.storyboard */,
+				25DEA73D174E300500B6AAD4 /* ViewController.h */,
+				25DEA73E174E300500B6AAD4 /* ViewController.m */,
+				25DEA72F174E300500B6AAD4 /* Supporting Files */,
+			);
+			path = iBank;
+			sourceTree = "<group>";
+		};
+		25DEA72F174E300500B6AAD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25DEA730174E300500B6AAD4 /* iBank-Info.plist */,
+				25DEA731174E300500B6AAD4 /* InfoPlist.strings */,
+				25DEA734174E300500B6AAD4 /* main.m */,
+				25DEA736174E300500B6AAD4 /* iBank-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		25E29E0A1729745500CD4BAF = {
 			isa = PBXGroup;
 			children = (
+				25DEA724174E2EE300B6AAD4 /* Default-568h@2x.png */,
 				25E29E1F1729745600CD4BAF /* iBank */,
+				25DEA70F174E2C0100B6AAD4 /* iBank */,
+				25DEA72E174E300500B6AAD4 /* iBank */,
 				25E29E181729745600CD4BAF /* Frameworks */,
 				25E29E161729745600CD4BAF /* Products */,
 			);
@@ -65,7 +176,7 @@
 		25E29E161729745600CD4BAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25E29E151729745600CD4BAF /* iBank.app */,
+				25DEA729174E300500B6AAD4 /* iBank.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,10 +196,18 @@
 			children = (
 				25E29E281729745600CD4BAF /* AppDelegate.h */,
 				25E29E291729745600CD4BAF /* AppDelegate.m */,
+				25E29E9E1739092900CD4BAF /* Cells */,
+				25E29E911733FCE000CD4BAF /* CreatePaymentViewController.h */,
+				25E29E921733FCE000CD4BAF /* CreatePaymentViewController.m */,
+				25E29EA0173909BA00CD4BAF /* Details */,
+				25E29EA1173909C600CD4BAF /* Lists */,
 				25E29E311729745600CD4BAF /* MainStoryboard.storyboard */,
+				25E29E9F1739096A00CD4BAF /* Objects */,
+				25E29E201729745600CD4BAF /* Supporting Files */,
 				25E29E341729745600CD4BAF /* ViewController.h */,
 				25E29E351729745600CD4BAF /* ViewController.m */,
-				25E29E201729745600CD4BAF /* Supporting Files */,
+				25E78EF4173BB038000E6111 /* LoginViewController.h */,
+				25E78EF5173BB038000E6111 /* LoginViewController.m */,
 			);
 			path = iBank;
 			sourceTree = "<group>";
@@ -96,6 +215,18 @@
 		25E29E201729745600CD4BAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				25DD5240174A3D2200AE3DB0 /* raiffeisenlogo@2x.png */,
+				25DD5241174A3D2200AE3DB0 /* raiffeisenlogo.png */,
+				25E78EE6173936CC000E6111 /* menu.png */,
+				25E78EDE173936C2000E6111 /* listadepositave.png */,
+				25E78EDF173936C2000E6111 /* listakartave.png */,
+				25E78EE0173936C2000E6111 /* listallogarive.png */,
+				25E78EE1173936C2000E6111 /* listapagesave.png */,
+				25E78EF2173A8559000E6111 /* menu@2x.png */,
+				25E29E8A172FFB3C00CD4BAF /* yellow2.png */,
+				25E29E64172A74C200CD4BAF /* confirm.png */,
+				25E29E5B172A74B300CD4BAF /* main.png */,
+				25E29E5C172A74B300CD4BAF /* main@2x.png */,
 				25E29E211729745600CD4BAF /* iBank-Info.plist */,
 				25E29E221729745600CD4BAF /* InfoPlist.strings */,
 				25E29E251729745600CD4BAF /* main.m */,
@@ -107,16 +238,72 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		25E29E9E1739092900CD4BAF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				25E29E98173902E400CD4BAF /* CardCell.h */,
+				25E29E99173902E400CD4BAF /* CardCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		25E29E9F1739096A00CD4BAF /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				25E29E3F1729753700CD4BAF /* Account.h */,
+				25E29E401729753700CD4BAF /* Account.m */,
+				25E29E85172EA5FD00CD4BAF /* Card.h */,
+				25E29E52172A722000CD4BAF /* Card.m */,
+				25E29E4B1729768F00CD4BAF /* Customer.h */,
+				25E29E4C1729768F00CD4BAF /* Customer.m */,
+				25E29E53172A722000CD4BAF /* Deposit.h */,
+				25E29E54172A722000CD4BAF /* Deposit.m */,
+				25E29E3C1729752800CD4BAF /* Payment.h */,
+				25E29E3D1729752800CD4BAF /* Payment.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		25E29EA0173909BA00CD4BAF /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				25E29E9A173902E500CD4BAF /* CardDetailsController.h */,
+				25E29E9B173902E500CD4BAF /* CardDetailsController.m */,
+				25E29E73172E6B2D00CD4BAF /* DetailPaymentViewController.h */,
+				25E29E74172E6B2D00CD4BAF /* DetailPaymentViewController.m */,
+				25E29EA217390DA100CD4BAF /* DetailAccountViewController.h */,
+				25E29EA317390DA100CD4BAF /* DetailAccountViewController.m */,
+				25E29EA517390DB700CD4BAF /* DetailDepositViewController.h */,
+				25E29EA617390DB700CD4BAF /* DetailDepositViewController.m */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		25E29EA1173909C600CD4BAF /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				25E29E66172AB34200CD4BAF /* ListAccountsViewController.h */,
+				25E29E67172AB34200CD4BAF /* ListAccountsViewController.m */,
+				25E29E7F172EA5F100CD4BAF /* ListCardsViewController.h */,
+				25E29E80172EA5F100CD4BAF /* ListCardsViewController.m */,
+				25E29E81172EA5F100CD4BAF /* ListDepositsViewController.h */,
+				25E29E82172EA5F100CD4BAF /* ListDepositsViewController.m */,
+				25E29E421729755A00CD4BAF /* ListPaymentsViewController.h */,
+				25E29E431729755A00CD4BAF /* ListPaymentsViewController.m */,
+			);
+			name = Lists;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		25E29E141729745500CD4BAF /* iBank */ = {
+		25DEA728174E300500B6AAD4 /* iBank */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25E29E391729745600CD4BAF /* Build configuration list for PBXNativeTarget "iBank" */;
+			buildConfigurationList = 25DEA740174E300500B6AAD4 /* Build configuration list for PBXNativeTarget "iBank" */;
 			buildPhases = (
-				25E29E111729745500CD4BAF /* Sources */,
-				25E29E121729745500CD4BAF /* Frameworks */,
-				25E29E131729745500CD4BAF /* Resources */,
+				25DEA725174E300500B6AAD4 /* Sources */,
+				25DEA726174E300500B6AAD4 /* Frameworks */,
+				25DEA727174E300500B6AAD4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -124,7 +311,7 @@
 			);
 			name = iBank;
 			productName = iBank;
-			productReference = 25E29E151729745600CD4BAF /* iBank.app */;
+			productReference = 25DEA729174E300500B6AAD4 /* iBank.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,40 +335,69 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				25E29E141729745500CD4BAF /* iBank */,
+				25DEA728174E300500B6AAD4 /* iBank */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		25E29E131729745500CD4BAF /* Resources */ = {
+		25DEA727174E300500B6AAD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25E29E241729745600CD4BAF /* InfoPlist.strings in Resources */,
-				25E29E2C1729745600CD4BAF /* Default.png in Resources */,
-				25E29E2E1729745600CD4BAF /* Default@2x.png in Resources */,
-				25E29E301729745600CD4BAF /* Default-568h@2x.png in Resources */,
-				25E29E331729745600CD4BAF /* MainStoryboard.storyboard in Resources */,
+				25DEA733174E300500B6AAD4 /* InfoPlist.strings in Resources */,
+				25DEA73C174E300500B6AAD4 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		25E29E111729745500CD4BAF /* Sources */ = {
+		25DEA725174E300500B6AAD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25E29E261729745600CD4BAF /* main.m in Sources */,
-				25E29E2A1729745600CD4BAF /* AppDelegate.m in Sources */,
-				25E29E361729745600CD4BAF /* ViewController.m in Sources */,
+				25DEA735174E300500B6AAD4 /* main.m in Sources */,
+				25DEA739174E300500B6AAD4 /* AppDelegate.m in Sources */,
+				25DEA73F174E300500B6AAD4 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		25DEA712174E2C0100B6AAD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DEA713174E2C0100B6AAD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25DEA71B174E2C0100B6AAD4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DEA71C174E2C0100B6AAD4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		25DEA731174E300500B6AAD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DEA732174E300500B6AAD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25DEA73A174E300500B6AAD4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DEA73B174E300500B6AAD4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
 		25E29E221729745600CD4BAF /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -201,6 +417,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		25DEA741174E300500B6AAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBank/iBank-Prefix.pch";
+				INFOPLIST_FILE = "iBank/iBank-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25DEA742174E300500B6AAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBank/iBank-Prefix.pch";
+				INFOPLIST_FILE = "iBank/iBank-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		25E29E371729745600CD4BAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -210,7 +452,9 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CEZ SHPERNDARJE SH.A. (3398ZAK2E2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: CEZ SHPERNDARJE SH.A. (3398ZAK2E2)";
+				"CODE_SIGN_RESOURCE_RULES_PATH[sdk=*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -225,6 +469,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -238,7 +484,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CEZ SHPERNDARJE SH.A. (3398ZAK2E2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: CEZ SHPERNDARJE SH.A. (3398ZAK2E2)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -246,36 +493,24 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		25E29E3A1729745600CD4BAF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iBank/iBank-Prefix.pch";
-				INFOPLIST_FILE = "iBank/iBank-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		25E29E3B1729745600CD4BAF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iBank/iBank-Prefix.pch";
-				INFOPLIST_FILE = "iBank/iBank-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		25DEA740174E300500B6AAD4 /* Build configuration list for PBXNativeTarget "iBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DEA741174E300500B6AAD4 /* Debug */,
+				25DEA742174E300500B6AAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		25E29E0F1729745500CD4BAF /* Build configuration list for PBXProject "iBank" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -284,14 +519,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		25E29E391729745600CD4BAF /* Build configuration list for PBXNativeTarget "iBank" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				25E29E3A1729745600CD4BAF /* Debug */,
-				25E29E3B1729745600CD4BAF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
